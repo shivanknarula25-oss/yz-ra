@@ -116,6 +116,16 @@ const events = [
         url: "https://icml.cc/",
         category: "Conference",
         logo_url: "https://logo.clearbit.com/icml.cc"
+    },
+    {
+        name: "RSS 2026",
+        description: "Robotics: Science and Systems 2026.",
+        location: "Sydney, Australia",
+        start_date: "2026-07-13",
+        end_date: "2026-07-17",
+        url: "https://roboticsconference.org/",
+        category: "Conference",
+        logo_url: "https://logo.clearbit.com/roboticsconference.org"
     }
 ];
 

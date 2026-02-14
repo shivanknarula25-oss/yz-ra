@@ -22,24 +22,7 @@
         "title": "The Robotics Corridor",
         "subtitle": "Bridging India’s AI innovation with China’s manufacturing scale. The premier ecosystem for cross-border robotics collaboration.",
         "cta_join": "Join The Ecosystem",
-        "cta_explore": "Explore Member Map",
-        "live_intel": "LIVE INTEL",
-        "stream": "STREAM",
-        "connected": "CONNECTED",
-        "full_reports": "Full Reports",
-        "join_node": "Join Node"
-    },
-    "Market": {
-        "header": "Market Intelligence // Live",
-        "indices": {
-            "icra_select": "ICRA Robotics Select",
-            "china_index": "China Robot Index",
-            "global_etf": "Global Automation ETF",
-            "ai_robotics": "AI & Robotics"
-        }
-    },
-    "NewsTicker": {
-        "latest_wire": "LATEST_WIRE"
+        "cta_explore": "Explore Member Map"
     },
     "ChinaPage": {
         "title": "Chinese <span class=\"text-red-500\">Robotics</span> Ecosystem",

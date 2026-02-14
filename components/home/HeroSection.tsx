@@ -69,12 +69,12 @@ export const HeroSection = () => {
                         <div className="flex items-center gap-3">
                             <Radio className="w-5 h-5 text-red-500 animate-pulse" />
                             <h2 className="text-lg font-bold font-mono uppercase tracking-wider text-white">
-                                {t('live_intel')} <span className="text-slate-500">//</span> {t('stream')}
+                                LIVE INTEL <span className="text-slate-500">//</span> STREAM
                             </h2>
                         </div>
                         <div className="flex items-center gap-2">
                             <span className="w-2 h-2 bg-emerald-500 rounded-full"></span>
-                            <span className="text-xs font-mono text-emerald-500">{t('connected')}</span>
+                            <span className="text-xs font-mono text-emerald-500">CONNECTED</span>
                         </div>
                     </div>
 
@@ -111,12 +111,12 @@ export const HeroSection = () => {
                     <div className="p-4 border-t border-slate-800 bg-slate-900/80 backdrop-blur-sm z-10 flex gap-2">
                         <Link href="/news" className="flex-1">
                             <button className="w-full py-2 bg-cyan-600/10 border border-cyan-600/30 hover:bg-cyan-600/20 text-cyan-400 font-mono text-xs uppercase tracking-wider transition-colors flex items-center justify-center gap-2">
-                                <FileText className="w-3 h-3" /> {t('full_reports')}
+                                <FileText className="w-3 h-3" /> Full Reports
                             </button>
                         </Link>
                         <Link href="/members/join" className="flex-1">
                             <button className="w-full py-2 bg-emerald-600/10 border border-emerald-600/30 hover:bg-emerald-600/20 text-emerald-400 font-mono text-xs uppercase tracking-wider transition-colors flex items-center justify-center gap-2">
-                                <Activity className="w-3 h-3" /> {t('join_node')}
+                                <Activity className="w-3 h-3" /> Join Node
                             </button>
                         </Link>
                     </div>

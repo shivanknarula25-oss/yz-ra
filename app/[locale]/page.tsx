@@ -9,7 +9,7 @@ import { StandardsList } from "@/components/home/StandardsList";
 
 export default function Home() {
   return (
-    <main className="flex flex-col min-h-screen bg-slate-950 text-white selection:bg-emerald-500/30">
+    <main className="flex flex-col min-h-screen bg-slate-950 text-white selection:bg-emerald-500/30 pt-28">
 
       {/* 1. Global Market Intelligence (Top Bar) */}
       <MarketDashboard />

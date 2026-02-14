@@ -5,7 +5,7 @@ import { supabase } from '@/lib/supabase';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import { useEffect, useState } from 'react';
-import { Layers } from 'lucide-react';
+import { Layers, Globe } from 'lucide-react';
 
 interface Event {
     id: string;
@@ -121,6 +121,28 @@ export default function EventsPage() {
                         )}
                     </>
                 )}
+
+                {/* External Trackers */}
+                <div className="mt-20 pt-10 border-t border-white/10">
+                    <h3 className="text-xl font-bold text-white mb-6 flex items-center gap-2">
+                        <Globe className="w-5 h-5 text-cyan-400" />
+                        GLOBAL EVENT TRACKERS
+                    </h3>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <a href="https://conferencealerts.com/topic-listing?topic=Robotics" target="_blank" className="p-4 bg-slate-900/50 border border-white/5 hover:border-cyan-500/30 rounded-xl transition-all group">
+                            <div className="text-cyan-400 font-mono text-sm mb-1 group-hover:text-cyan-300">CONFERENCE ALERTS</div>
+                            <div className="text-slate-400 text-xs">Real-time alerts for academic conferences worldwide.</div>
+                        </a>
+                        <a href="https://www.caai.cn/" target="_blank" className="p-4 bg-slate-900/50 border border-white/5 hover:border-cyan-500/30 rounded-xl transition-all group">
+                            <div className="text-cyan-400 font-mono text-sm mb-1 group-hover:text-cyan-300">CAAI EVENTS</div>
+                            <div className="text-slate-400 text-xs">Official events from the Chinese Association for AI.</div>
+                        </a>
+                        <a href="https://roboticsconference.org/" target="_blank" className="p-4 bg-slate-900/50 border border-white/5 hover:border-cyan-500/30 rounded-xl transition-all group">
+                            <div className="text-cyan-400 font-mono text-sm mb-1 group-hover:text-cyan-300">RSS FOUNDATION</div>
+                            <div className="text-slate-400 text-xs">Robotics: Science and Systems official portal.</div>
+                        </a>
+                    </div>
+                </div>
 
             </div>
         </main>
