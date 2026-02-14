@@ -33,14 +33,24 @@ export default function ToolsPage() {
     useEffect(() => {
         async function fetchTools() {
             setLoading(true);
+            console.log("Fetching tools from Supabase...");
+
+            // Debug Env Vars (Safe to log URL, keep Key hidden/partial if needed)
+            console.log("Supabase URL:", process.env.NEXT_PUBLIC_SUPABASE_URL);
+
             const { data, error } = await supabase
                 .from('ai_tools')
                 .select('*')
                 .order('name', { ascending: true });
 
-            if (!error && data) {
-                setTools(data);
-                setFilteredTools(data);
+            if (error) {
+                console.error("Supabase Error:", error);
+            } else {
+                console.log("Supabase Data:", data?.length, "rows found.");
+                if (data) {
+                    setTools(data);
+                    setFilteredTools(data);
+                }
             }
             setLoading(false);
         }
