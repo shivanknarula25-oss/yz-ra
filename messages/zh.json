@@ -1,0 +1,37 @@
+{
+    "Navbar": {
+        "title": "YZ-RA",
+        "links": {
+            "home": "枢纽中心",
+            "news": "新闻流",
+            "members": "成员",
+            "tools": "工具",
+            "events": "活动",
+            "login": "登录",
+            "join": "加入联盟"
+        },
+        "dropdown": {
+            "integrators": "集成商",
+            "india": "印度机器人公司",
+            "china": "中国机器人公司",
+            "others": "其他成员"
+        }
+    },
+    "Hero": {
+        "badge": "全球机器人智能网络",
+        "title": "机器人走廊",
+        "subtitle": "连接印度的AI创新与中国的制造规模。跨境机器人合作的首选生态系统。",
+        "cta_join": "加入生态系统",
+        "cta_explore": "探索成员地图"
+    },
+    "ChinaPage": {
+        "title": "中国<span class=\"text-red-500\">机器人</span>生态系统",
+        "subtitle": "中国大规模自动化领域的全面分类。",
+        "categories": {
+            "whole-machine": "整机制造商",
+            "components": "核心零部件",
+            "intelligence": "智能机器与软件",
+            "integration": "系统集成与终端用户"
+        }
+    }
+}

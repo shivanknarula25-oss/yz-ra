@@ -1,0 +1,2 @@
+npx tsx scripts/news_runner.ts
+npx tsx scripts/case_runner.ts

@@ -1,0 +1,37 @@
+{
+    "Navbar": {
+        "title": "YZ-RA",
+        "links": {
+            "home": "The Nexus",
+            "news": "News Stream",
+            "members": "Members",
+            "tools": "Tools",
+            "events": "Events",
+            "login": "Login",
+            "join": "JOIN ALLIANCE"
+        },
+        "dropdown": {
+            "integrators": "Integrators",
+            "india": "Indian Robotics Companies",
+            "china": "Chinese Robotics Companies",
+            "others": "Other Members"
+        }
+    },
+    "Hero": {
+        "badge": "global robotics intelligence network",
+        "title": "The Robotics Corridor",
+        "subtitle": "Bridging India’s AI innovation with China’s manufacturing scale. The premier ecosystem for cross-border robotics collaboration.",
+        "cta_join": "Join The Ecosystem",
+        "cta_explore": "Explore Member Map"
+    },
+    "ChinaPage": {
+        "title": "Chinese <span class=\"text-red-500\">Robotics</span> Ecosystem",
+        "subtitle": "A comprehensive classification of the massive automation landscape in China.",
+        "categories": {
+            "whole-machine": "Whole-Machine Manufacturers",
+            "components": "Core Components & Hardware",
+            "intelligence": "Intelligence, Software & AI",
+            "integration": "Integration, Logistics & End-Users"
+        }
+    }
+}
