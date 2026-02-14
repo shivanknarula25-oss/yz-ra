@@ -13,7 +13,10 @@ interface NewsItem {
     published_date: string;
 }
 
+import { useTranslations } from 'next-intl';
+
 export const NewsTicker = () => {
+    const t = useTranslations('NewsTicker');
     const [news, setNews] = useState<NewsItem[]>([]);
 
     useEffect(() => {
@@ -42,7 +45,7 @@ export const NewsTicker = () => {
         <div className="w-full bg-slate-950 border-b border-slate-800 h-8 flex items-center overflow-hidden">
             <div className="bg-slate-900 text-slate-400 text-xs font-mono font-bold px-3 h-full flex items-center border-r border-slate-800 shrink-0">
                 <Terminal className="w-3 h-3 mr-2" />
-                LATEST_WIRE
+                {t('latest_wire')}
             </div>
 
             <div className="flex overflow-hidden whitespace-nowrap w-full">

@@ -22,7 +22,24 @@
         "title": "机器人走廊",
         "subtitle": "连接印度的AI创新与中国的制造规模。跨境机器人合作的首选生态系统。",
         "cta_join": "加入生态系统",
-        "cta_explore": "探索成员地图"
+        "cta_explore": "探索成员地图",
+        "live_intel": "实时情报",
+        "stream": "流",
+        "connected": "已连接",
+        "full_reports": "完整报告",
+        "join_node": "加入节点"
+    },
+    "Market": {
+        "header": "市场情报 // 实时",
+        "indices": {
+            "icra_select": "ICRA 机器人精选",
+            "china_index": "中国机器人指数",
+            "global_etf": "全球自动化 ETF",
+            "ai_robotics": "人工智能与机器人"
+        }
+    },
+    "NewsTicker": {
+        "latest_wire": "最新快讯"
     },
     "ChinaPage": {
         "title": "中国<span class=\"text-red-500\">机器人</span>生态系统",
